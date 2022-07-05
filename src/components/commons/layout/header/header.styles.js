@@ -7,48 +7,59 @@ export const Wrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  margin: 0px auto;
 `;
 
 export const Logo = styled.div`
   font-family: "Vitro_core";
   font-size: 3.2rem;
+  font-weight: 700;
 
   background-color: red;
 
   cursor: pointer;
+
+  margin-left: 200px;
+  margin-right: auto;
+`;
+
+export const Navigation = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  font-family: "Vitro_core";
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  margin-right: 230px;
 `;
 
 export const AboutMe = styled.div`
-  font-family: "Vitro_core";
-  font-size: 1.8rem;
-
   background-color: orange;
 
   cursor: pointer;
+
+  margin-right: 35px;
 `;
 
 export const Skills = styled.div`
-  font-family: "Vitro_core";
-  font-size: 1.8rem;
-
   background-color: yellow;
 
   cursor: pointer;
+
+  margin-right: 35px;
 `;
 
 export const Archiving = styled.div`
-  font-family: "Vitro_core";
-  font-size: 1.8rem;
-
   background-color: green;
 
   cursor: pointer;
+
+  margin-right: 35px;
 `;
 
 export const Projects = styled.div`
-  font-family: "Vitro_core";
-  font-size: 1.8rem;
-
   background-color: blue;
 
   cursor: pointer;
