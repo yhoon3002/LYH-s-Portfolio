@@ -15,13 +15,20 @@ export const Logo = styled.div`
   font-family: "Vitro_core";
   font-size: 3.2rem;
   font-weight: 700;
-
-  background-color: red;
+  background: linear-gradient(to right top, #cc33ff, #6ccad0);
+  color: transparent;
+  -webkit-background-clip: text;
 
   cursor: pointer;
 
   margin-left: 200px;
   margin-right: auto;
+
+  :hover {
+    background: linear-gradient(to right top, #a5ea89, #ff8e7f);
+    color: transparent;
+    -webkit-background-clip: text;
+  }
 `;
 
 export const Navigation = styled.div`
@@ -36,31 +43,23 @@ export const Navigation = styled.div`
 `;
 
 export const AboutMe = styled.div`
-  background-color: orange;
-
   cursor: pointer;
 
   margin-right: 35px;
 `;
 
 export const Skills = styled.div`
-  background-color: yellow;
-
   cursor: pointer;
 
   margin-right: 35px;
 `;
 
 export const Archiving = styled.div`
-  background-color: green;
-
   cursor: pointer;
 
   margin-right: 35px;
 `;
 
 export const Projects = styled.div`
-  background-color: blue;
-
   cursor: pointer;
 `;
